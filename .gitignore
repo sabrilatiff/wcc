@@ -1,0 +1,12 @@
+target
+*.class
+.metadata
+/src/main/metamodel
+/.apt_generated
+bin
+/target
+*.jasper
+/.settings
+.project
+ending.txt:1:1
+
