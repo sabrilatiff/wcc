@@ -50,7 +50,7 @@ public class MapTest {
 	private MockMvc mockMvc;
 
 	@Test
-	public void shouldReturnDefaultMessage() throws Exception {
+	public void distance() throws Exception {
 			
 		this.mockMvc.perform(get("/map/distance/AB10 1XG/AB23 8ET").header(HttpHeaders.AUTHORIZATION, "Basic " + Base64Utils.encodeToString("admin:123".getBytes())))
 			.andExpect(status().isOk())
